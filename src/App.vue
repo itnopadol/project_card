@@ -1,17 +1,13 @@
 <template>
   <div id="app">
-    <header>
-      <span>Vue.js PWA</span>
-    </header>
+  	<nav class="navbar navbar-light bg-faded">
+  		<h1 class="navbar-brand mb-0">Navbar</h1>
+	</nav>
+
     <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
       <router-view></router-view>
     </main>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'app'
-}
-</script>
+<script src="./js/app.js"></script>
